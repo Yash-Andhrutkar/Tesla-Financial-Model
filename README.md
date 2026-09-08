@@ -67,7 +67,7 @@ The model does not separately forecast potential cash-flow streams from autonomy
 - P / E
 - Peer-derived valuation range
 
-**Scenario Analysis**
+## Scenario Analysis — Key Outputs
 - Bear, Base and Bull operating cases
 - 11 operating drivers vary by scenario
 
@@ -91,3 +91,46 @@ Historical and market data are sourced from Tesla company filings and Investor R
 ## Disclaimer
 
 This project was created independently for educational and portfolio purposes. It is **not investment research, an investment recommendation or investment advice**.
+## Model Preview
+
+### Integrated Model Summary
+
+The model brings together historical performance, operating forecasts, financial statements and valuation outputs in a single integrated framework.
+
+![Tesla Model Summary](Model_Summary_Overview.png)
+
+![Tesla Model Summary - Valuation](Model_Summary_Valuation.png)
+
+---
+
+## Scenario Analysis
+
+The model includes Bear, Base and Bull cases driven by alternative operating assumptions while maintaining a consistent integrated financial framework.
+
+![Tesla Scenario Analysis](Scenario_Analysis.png)
+
+---
+
+## DCF Valuation
+
+The DCF uses FCFF and a CAPM-derived WACC to estimate enterprise and equity value.
+
+### Enterprise Value to Equity Value Bridge
+
+![Tesla DCF Valuation Bridge](DCF_Valuation_Bridge.png)
+
+### WACC × Terminal Growth Sensitivity
+
+![Tesla DCF Sensitivity](DCF_Sensitivity.png)
+
+---
+
+## Reverse DCF
+
+Rather than forcing the fundamental valuation toward Tesla's observed market price, the Reverse DCF evaluates the operating expectations implied by the market valuation.
+
+![Tesla Reverse DCF Overview](Reverse_DCF_Overview.png)
+
+The analysis then estimates the cash-flow performance required for the modeled enterprise value to reconcile with the market-implied valuation.
+
+![Tesla Reverse DCF Implied Expectations](Reverse_DCF_Implied_Expectations.png)
